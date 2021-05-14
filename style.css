@@ -551,14 +551,7 @@ color:#c89f43
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: space-between;
-	/* max-width: 1294px; */
-	/* margin:0 auto; */
 }
-
-/* .social-section .container{
-      margin-right: 1rem;
-} */
-
 .social-wrapper figure{
 	width:24.737%;
 	margin-bottom:28px;
@@ -570,3 +563,25 @@ color:#c89f43
 .follow-button button{
 	font-size: 17px;;
 }
+
+/* footer */
+.footer-section{
+    padding:114px 0 118px; 
+}
+
+.about-icons i{
+    max-width: 100%;
+    color: black;
+}
+/* .footer-logo{
+	display: inline-block;
+	margin-right:40px;
+}
+.social-icons{
+	display: inline-flex;
+	align-items: center;
+}
+.social-icons a{
+	display: inline-block;
+	margin-right:7px;
+} */
