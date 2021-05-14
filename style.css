@@ -195,7 +195,7 @@ section{
 .banner-header{
 	background-color: #f7f7f7;
 	position: relative;
-	height: 580px;
+	height: 586px;
 }
 .banner-content{
     display: flex;
@@ -286,6 +286,13 @@ padding-left:0;
 .stately-images figure img{
 	height:100%;
 	width:100%;
+    transition: all 0.2s;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.stately-images figure img:hover{
+    filter: grayscale(0);
 }
 
 .stately-lines span:after{
