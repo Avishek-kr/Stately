@@ -86,8 +86,8 @@ button{
 	min-height:57px;
 	background: #c89f43;
 	outline: none;
+    letter-spacing: 3px;
 	transition: all 0.4s ease-in-out;
-	
 }
 a:link, a:visited , a:hover{	
     transition: color 200ms ease;
@@ -359,4 +359,126 @@ font-size: 18px;
 width: 98%;
 margin: auto;
 font-weight: 500;
+}
+
+/* pricing */
+.section-pricing{
+	background:url("/assets/images/background.png") no-repeat top center;
+	padding:95px 0 97px;
+	background-size:cover ;
+}
+
+.section-pricing h2{
+    margin-bottom: 60px;
+}
+
+.card-pricing{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.card-pricing .same-pricing-cards{
+border-left:2px solid #c79f43;
+border-right:2px solid #c79f43;
+border-bottom:2px solid #c79f43;
+width:50%;
+text-align: center;
+padding:51px 43px 45px;
+max-width:330px;
+position: relative;
+}
+.card-pricing .same-pricing-cards h4{
+	position: absolute;
+	display: block;
+	top:0;
+	width:100%;
+	left:0;
+}
+.card-pricing .same-pricing-cards h4:after{
+	position: absolute;
+	content:'';
+	border-top:2px solid #c79f43;
+	height:2px;
+	width:23%;
+	left:0;
+	top:0;
+
+}
+.card-pricing .same-pricing-cards h4:before{
+	position: absolute;
+	content:'';
+	border-top:2px solid #c79f43;
+	height:2px;
+	width:23%;
+	right:0;
+	top:0;
+
+}
+.card-pricing .same-pricing-cards h4 span{
+position: relative;
+top:-14px;
+display: block;
+font-size:28px;
+letter-spacing: 8px;
+font-weight: 600;
+color:#c79f43;
+}
+.same-pricing-cards .value{
+	font-size:20px;
+	color:#000;
+	display: block;
+	margin-bottom:38px;
+	font-weight: 600;
+    word-spacing: 10px;
+	text-transform: uppercase;
+}
+.price-rate{
+font-weight:700;
+font-size: 55px;
+color:#c89f43
+}
+.price-rate span{
+	display: block;
+	margin-top:12px;
+	margin-bottom:35px;
+}
+.same-pricing-cards p{
+	font-size:18px;
+	color:rgb(65, 62, 62);
+    
+}
+.section-brands{
+    padding:114px 0 118px; 
+}
+
+.section-brands h3{
+    color: black;
+    font-weight: 500;
+    word-spacing: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-brands h2{
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom:79px;
+}
+
+.social-wrapper{
+	display: flex;
+    align-items: center;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin:0 auto;
+}
+
+.social-wrapper figure{
+	width:20%;
+	margin-bottom:28px;
+}
+
+.social-wrapper figure img{
+    width: 60%;
 }
