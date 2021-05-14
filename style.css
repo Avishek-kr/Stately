@@ -191,3 +191,62 @@ section{
 /* .logo{
 	display: block;
 } */
+
+.banner-header{
+	background-color: #f7f7f7;
+	position: relative;
+	height: 580px;
+}
+.banner-content{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	padding-right: 150px;
+	height: 100%;
+}
+
+.header-img{
+    right: 0;
+	top: 0;
+	position: absolute;
+}
+
+.banner-header .container{
+	height: 100%;
+}
+
+.banner-content h2{
+	font-size: 35px;
+    color: black;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.banner-content p{
+	font-size: 20px;
+    line-height: 1.6;
+	margin-bottom:45px;
+	text-align: left;
+}
+.banner-content strong{
+    display: block;
+	text-align: left;
+	font-size: 18px;
+    text-transform: uppercase;
+	margin-bottom: 20px;
+	color: black;
+}
+.started-btn-wrapper{
+	text-align: left;
+}
+.started-btn{
+	min-width: auto;
+	padding: 0 67.57px;
+	position:relative;
+
+}
+.right-arrow{
+	position: absolute;
+	right: 50px;
+    top: 40%;
+}
