@@ -538,3 +538,35 @@ color:#c89f43
 .styled-section span a:hover:after{
 	border-bottom:1px solid #c89f43;
 }
+
+
+/* social */
+.social-section{
+	padding:114px 0 118px; 
+}
+.social-section h2{
+	margin-bottom:79px;
+}
+.social-wrapper{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	/* max-width: 1294px; */
+	/* margin:0 auto; */
+}
+
+/* .social-section .container{
+      margin-right: 1rem;
+} */
+
+.social-wrapper figure{
+	width:24.737%;
+	margin-bottom:28px;
+}
+.follow-button{
+	text-align: center;
+	margin-top:22px;
+}
+.follow-button button{
+	font-size: 17px;;
+}
